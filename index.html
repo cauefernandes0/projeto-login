@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <main>
+        
+        <h1>Login</h1>
+        <p id="comeco">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+
+        <form action="cadastro.php" method="get">
+            <p>
+                <label for="iemail"><span class="material-icons md-36">person</span></label>
+                <input type="email" name="email" id="iemail"  required autocomplete="email" placeholder="seu email">
+            </p>
+            <p>
+                <label for="isenha"><span class="material-icons ">key</span></label>
+                <input type="text" name="senha" id="isenha" required minlength="8" maxlength="20"  autocomplete="current-password" placeholder="sua senha">
+            </p>
+            <input type="submit" value="Entrar">
+            <input type="reset" value="Esqueci a senha">
+        </form>
+    </main>
+</body>
+</html>

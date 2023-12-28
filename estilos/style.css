@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --ver
+}
+
+html{
+
+    background-color: rgb(136, 66, 136);}
+
+
+main{
+    padding: 10px;
+    margin: 20px;
+    width: 80vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#comeco{
+    margin-bottom: 20px;
+}
+
