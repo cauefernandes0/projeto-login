@@ -10,7 +10,8 @@
     padding: 0px;
 }
 :root{
-    --ver
+    --verde: #49a09d;
+    --roxo: #5f2c82;
 }
 
 html{
@@ -18,7 +19,7 @@ html{
     background-color: rgb(136, 66, 136);}
 
 
-main{
+#login{
     padding: 10px;
     margin: 20px;
     width: 80vw;
@@ -34,7 +35,16 @@ h1{
     margin-bottom: 15px;
 }
 
-#comeco{
+p{
     margin-bottom: 20px;
 }
 
+.img{
+    background-color: var(--roxo);
+    color: white;
+}
+#imgform2{
+    background-color: var(--roxo);
+    color: white;
+
+}
