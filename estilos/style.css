@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
 *{
     margin: 0px;
     padding: 0px;
@@ -66,7 +61,7 @@ section#login > div#imagem{
 }
 
 section#login > div#formulário{
-    padding: 10px;
+    
     display: block;
 }
 div#formulario > h1{
